@@ -21,6 +21,7 @@ const listingsRouter = require("./routes/listing.js");
 const reviewsRouter = require("./routes/review.js");
 const userRouter = require("./routes/user.js");
 
+// New Database url added to make sure listings will be shown
 const dbUrl = process.env.MONGOATLASDB_URL;
 
 main()
